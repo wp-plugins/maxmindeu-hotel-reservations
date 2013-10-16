@@ -3,7 +3,7 @@
 Plugin Name: Maxmind.eu Hotel Reservations
 Plugin URI: http://www.vanmeerdervoort.nl/wordpress-maxmind-plugin.html
 Description: Includes the Maxmind.eu Hotel Booking system in your wordpress as a widget. You need a Maxmind.eu account!
-Version: 1.0.4
+Version: 1.0.5
 Author: Vincent Pompe van Meerdervoort
 Author URI: http://www.vanmeerdervoort.nl
 
@@ -97,7 +97,7 @@ load_plugin_textdomain('vm_maxmind_lang', false, basename( dirname( __FILE__ ) )
 	        </tr>
 			<tr valign="top">
 	        <th scope="row">Maxmind URL</th>
-	        <td><input type="text" name="vm_maxmind_url" value="<?php echo get_option('vm_maxmind_url'); ?>" /> (the url of your personalized page on maxengine, shortcode: [vm-maxmind-button text="Text on your button"])</td>
+	        <td><input type="text" name="vm_maxmind_url" value="<?php echo get_option('vm_maxmind_url'); ?>" /> (the url of your personalized page on maxengine)</td>
 	        </tr>
 				<tr valign="top">
 	        <th scope="row">Maxmind Button class</th>
@@ -109,6 +109,16 @@ load_plugin_textdomain('vm_maxmind_lang', false, basename( dirname( __FILE__ ) )
 	    <?php submit_button(); ?>
 
 	</form>
+    <table class="form-table">
+    <tr>
+    <td>
+    <h3>How To</h3>
+     Fill out the form above, save and add the Maxmind widget to your sidebar (Appearance > Widgets). All data needed should be provided to you by Maxmind.eu<br />You can use a shortcode in your posts and pages to create a link to your Maxmind.eu reservation page on the Maxmind servers: [vm-maxmind-button text="Text on your button"]. The button will have the class added in the 'Maxmind Button class' field.<br />
+     <h3>Support</h3>
+     Please note I have nothing to do with the Maxmind.eu company and <strong>can not</strong> provide support for your account, registration or whatever else concering Maxmind.eu. <a href="http://www.maxmind.eu" target="_blank">You should contact them directly</a>.<br />
+     I do provide support for this plugin, although my time is limited so I will not be able to respond very fast. For support concerning this plugin, contact me through my website: <a href="http://www.vanmeerdervoort.nl/contact.html">vanMeerdervoort.nl</a>.
+    </td>
+    </tr></table>
 	</div>
 	<?php 
 	}

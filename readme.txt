@@ -5,7 +5,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: maxmind, bookings, hotel, reservation
 Requires at least: 3.0
 Tested up to: 3.6
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 
 Easily add a Maxmind.eu Hotel Reservation system widget to your WordPress site.
 
@@ -32,15 +32,21 @@ I am in no way related to the company Maxmind.eu.
 
 =So you provide support?=
 
-Yes. If you ask me, I will try and answer as soon as I can. But keep in mind I've put this plugin up here just because I think it could be useful to others too. I am really busy so it might take some time for me to reply!
+Yes. But please note: I have nothing whatsoever to do with the company Maxmind.eu. I can only provide support for this plugin, not for maxmind.eu account related stuff! If you need an account or have questions about maxmind.eu please contact them directly at www.maxmind.eu 
+
+For plugin related support: I will try and answer as soon as I can. But keep in mind I've put this plugin up here just because I think it could be useful to others too. I am really busy so it might take some time for me to reply!
 
 == Usage ==
 
-1. Enter your maxmind hotel ID and the other requested data in the Maxmind Settings page which you will find under the Settings tab on your dashboard.
+1. Enter your maxmind.eu hotel ID and the other requested data in the Maxmind Settings page which you will find under the Settings tab on your dashboard.
 2. Add the widget to one of your sidebars, click Save. Then you can enter a widget title and language. If you install the Widget Logic plugin you can
 also specify the language for which the specific widget should be shown.
 
 == Changelog ==
+
+= 1.0.5 =
+* minor bug fix
+* addition of short explanation on the settings page
 
 = 1.0.4 =
 * Namechange on request of Maxmind.com
