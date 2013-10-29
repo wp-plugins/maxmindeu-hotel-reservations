@@ -3,7 +3,7 @@
 Plugin Name: Maxmind.eu Hotel Reservations
 Plugin URI: http://www.vanmeerdervoort.nl/wordpress-maxmind-plugin.html
 Description: Includes the Maxmind.eu Hotel Booking system in your wordpress as a widget. You need a Maxmind.eu account!
-Version: 1.0.5
+Version: 1.0.6
 Author: Vincent Pompe van Meerdervoort
 Author URI: http://www.vanmeerdervoort.nl
 
